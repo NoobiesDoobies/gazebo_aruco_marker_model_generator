@@ -12,11 +12,11 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument(
     '-i', '--images-dir',
-    default="$HOME/gazebo_models/ar_tags/images",
+    default="/root/gazebo_aruco_marker_model_generator/ar_tags/images",
     help='directory where the marker images are located')
 parser.add_argument(
     '-g', '--gazebodir',
-    default="$HOME/.gazebo/models",
+    default="/usr/share/gazebo-11/models",
     help='Gazebo models directory')
 parser.add_argument(
     '-s', '--size',
